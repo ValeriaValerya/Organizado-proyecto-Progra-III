@@ -3,7 +3,7 @@ from datetime import timedelta
 from pathlib import Path
 
 try:
-    from minizinc import Model, Solver, Instance
+    from minizinc import Model, Solver, Instance  # type: ignore[import-untyped]
 except ImportError as e:
     print("Error: el paquete 'minizinc' no está instalado. Ejecuta 'pip install minizinc'.")
     raise SystemExit(1) from e
