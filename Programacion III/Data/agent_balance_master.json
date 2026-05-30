@@ -1,9 +1,0 @@
-{
-  "agent": "stability",
-  "weights": {
-    "w_stability": 25,
-    "w_balance": 10
-  },
-  "target_creditos": 15,
-  "note": "Agente que minimiza la variación entre semestres."
-}

@@ -1,7 +1,0 @@
-{
-  "agent": "no_vacios",
-  "weights": {
-    "w_no_vacios": 5
-  },
-  "note": "Evita semestres completamente vacíos."
-}
